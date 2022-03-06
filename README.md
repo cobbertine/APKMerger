@@ -8,6 +8,7 @@ It is expected that the user is familiar with ADB and decompiling APKs.
 
 # Instructions
 
+NOTE: Most of these instructions detail how to pull a split APK off an Android device. If this is already known, skip to step 4 for information about folder naming conventions so the tool works properly.
 
 1. You must first determine the package name of the APK you wish to pull, running the command "```adb shell pm list packages```" is one method.
 2. With the package name known, you must get the filepath of the Base APK and its components. For example:
